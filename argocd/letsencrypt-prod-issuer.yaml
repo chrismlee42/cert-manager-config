@@ -22,6 +22,7 @@ spec:
               method: login
               credentialsSecretRef:
                 name: he-credentials
+                namespace: cert-manager
         selector:
           dnsZones:
             - morphacy.net
