@@ -11,5 +11,11 @@ commonLabels:
   managementCodeProject: cert-manager-config
 
 resources:
-  - namespace.yaml
   - https://github.com/cert-manager/cert-manager/releases/download/v1.17.2/cert-manager.crds.yaml
+  - letsencrypt-prod-clusterissuer.yaml
+  - letsencrypt-prod-issuer.yaml
+  - letsencrypt-staging-clusterissuer.yaml
+  - letsencrypt-staging-issuer.yaml
+  - namespace.yaml
+  - secret-reader-role.yaml
+  - secret-reader-rolebinding.yaml
