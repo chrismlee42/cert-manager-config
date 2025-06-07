@@ -16,5 +16,5 @@ resources:
   - letsencrypt-staging-clusterissuer.yaml
   - letsencrypt-staging-issuer.yaml
   - namespace.yaml
-  - secret-reader-role.yaml
-  - secret-reader-rolebinding.yaml
+  # - secret-reader-role.yaml
+  # - secret-reader-rolebinding.yaml
