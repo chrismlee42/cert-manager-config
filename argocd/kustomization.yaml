@@ -16,3 +16,7 @@ resources:
   - letsencrypt-staging-clusterissuer.yaml
   - letsencrypt-staging-issuer.yaml
   - namespace.yaml
+  - self-signed-ca-clusterissuer.yaml
+  - self-signed-ca-certificate.yaml
+  - self-signed-clusterissuer.yaml
+  - self-signed-issuer.yaml
