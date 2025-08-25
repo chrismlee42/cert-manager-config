@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 jobs:
   sync:
-    runs-on: gha-runners-cert-manager-config
+    runs-on: chris-pc-cert-manager
     steps:
       - name: Install ArgoCD CLI
         run: |
